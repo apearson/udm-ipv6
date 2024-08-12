@@ -1,9 +1,9 @@
 [Unit]
-Description=Lets Encrypt certificate renewal
+Description=IPv6 Enablement
 [Service]
 Environment=HOME=/root
 Type=oneshot
 RemainAfterExit=false
 TimeoutSec=15m
-WorkingDirectory=/data/udm-le
-ExecStart=/data/udm-le/udm-le.sh renew
+WorkingDirectory=/data/udm-v6
+ExecStart=/data/udm-le/udm-v6.sh renew

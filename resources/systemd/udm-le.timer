@@ -1,5 +1,5 @@
 [Unit]
-Description=Run Lets Encrypt renewal daily and at startup
+Description=Run IPv6 Enablement daily and at startup
 After=unifi.service unifi-core.service
 [Timer]
 OnStartupSec=300
